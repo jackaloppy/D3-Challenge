@@ -29,3 +29,32 @@ body {
   margin: 0;
   font-size: 16px;
 }
+
+.tooltip {
+  position: absolute;
+  width: 140px;
+  height: 70px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(0,0,0, 0.6); 
+  border: 0;
+  border-radius: 10px;
+}
+
+.active {
+  font-weight: bold;
+  fill: #000;
+  fill: #551aaf;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: #551aaf;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
